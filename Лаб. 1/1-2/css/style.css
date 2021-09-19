@@ -1,0 +1,15 @@
+ body{
+     background-color: #fbf053; /* Цвет фона */
+     font-family: Arial, Sans-Serif; /* Тип шрифта */
+     color: Black; /* Цвет текста */
+}
+p{
+    width: 1190px;
+}
+b{
+    margin-left: 38%;
+}
+
+img{
+    padding-right: 10px;
+}
