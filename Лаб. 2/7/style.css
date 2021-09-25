@@ -1,0 +1,17 @@
+body{
+    background: MediumSpringGreen;
+}
+hr{
+    margin-top: 30px;
+    border: none;
+    background-color: red;
+    height: 3px;
+    margin-left: 10px;
+}
+.text{
+    margin: 0;
+    line-height: 0.2;
+    font-size: 25px;
+    color: red;
+    margin-left: 10px;
+}
