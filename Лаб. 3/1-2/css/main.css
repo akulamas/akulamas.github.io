@@ -183,11 +183,11 @@ select{
     transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-.slide1 { background-image: url(https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-Resize-vKQ9UheqEn7Cj.jpg); }
-.slide2 { background-image: url(https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-Resize-55wO2xVRVMqhsu.jpg); }
-.slide3 { background-image: url(https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-Resize-6PWBql3vVpcvLvqj.jpg); }
-.slide4 { background-image: url(https://www.imgonline.com.ua/result_img/imgonline-com-ua-Resize-kREz1uJUI2ju2.jpg); }
-.slide5 { background-image: url(https://www.imgonline.com.ua/result_img/imgonline-com-ua-Resize-jsqiodpmUXk5qS.jpg); }
+.slide1 { background-image: url('../img/imgonline-com-ua-Resize-VBd4qi2cmUu.jpg'); }
+.slide2 { background-image: url('../img/imgonline-com-ua-Resize-ASsI55QlG7fgm84.jpg'); }
+.slide3 { background-image: url('../img/imgonline-com-ua-Resize-ciGTw0hVIULW74d.jpg'); }
+.slide4 { background-image: url('../img/imgonline-com-ua-Resize-uOnqY97LPMVgS.jpg'); }
+.slide5 { background-image: url('../img/imgonline-com-ua-Resize-fUiPwdPkzhYsxX.jpg'); }
 
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
