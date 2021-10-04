@@ -1,0 +1,121 @@
+body{
+
+}
+.table2 {
+    margin-bottom: 50px;
+}
+.table1 {
+    align-content: center;
+    border-color: #35E4BF;
+    margin-bottom: 50px;
+}
+text{
+    align-content: center;
+}
+p{
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+tr{
+    font-size: 20px;
+}
+.dj{
+    position: relative;
+    margin-left: 950px;
+    margin-top: -1000px;
+    margin-bottom: 80px;
+}
+.int{
+    position: relative;
+    margin-left: 100px;
+    margin-top: -1000px;
+    margin-bottom: 80px;
+}
+h1{
+    color: white;
+    margin-top: -500px;
+    margin-left: 100px;
+    font-size: 200px;
+}
+h2{
+    color: white;
+    margin-top: -450px;
+    margin-left: 800px;
+    font-size: 100px;
+}
+h3{
+    color: white;
+    margin-top: -450px;
+    margin-left: 670px;
+    font-size: 100px;
+}
+h4{
+    color: white;
+    margin-top: -500px;
+    margin-left: 100px;
+    font-size: 80px;
+}
+.content{
+    margin-bottom: 70px;
+}
+.content1{
+    margin-bottom: 180px;
+}
+.content2{
+    margin-bottom: 130px;
+}
+.btn {
+    background: Red; /* Цвет фона */
+     margin-left: 330px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -300px;
+    color: #fff; /* Цвет текста */
+    padding: 17px 60px; /* Поля */
+    margin-bottom: 2em; /* Отступ снизу */
+   }
+   .btn:hover {
+    background: #1e6550; /* Цвет фона при наведении курсора */
+   }
+   .btn-flat {
+    border: 1px transparent; /* Прозрачная рамка */
+   }
+.btn1 {
+    background: Red; /* Цвет фона */
+     margin-left: 930px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -300px;
+    color: #fff; /* Цвет текста */
+    padding: 17px 60px; /* Поля */
+    margin-bottom: 2em; /* Отступ снизу */
+   }
+   .btn:hover {
+    background: #1e6550; /* Цвет фона при наведении курсора */
+   }
+   .btn-flat {
+    border: 1px transparent; /* Прозрачная рамка */
+   }
+.btn2 {
+    background: Red; /* Цвет фона */
+     margin-left: 260px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: -300px;
+    color: #fff; /* Цвет текста */
+    padding: 17px 60px; /* Поля */
+    margin-bottom: 2em; /* Отступ снизу */
+   }
+   .btn:hover {
+    background: #1e6550; /* Цвет фона при наведении курсора */
+   }
+   .btn-flat {
+    border: 1px transparent; /* Прозрачная рамка */
+   }
+a{
+    font-size: 80px;
+    margin-left: 450px;
+}
