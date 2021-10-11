@@ -1,0 +1,52 @@
+body{
+    background-color: #C9D6DF;
+}
+
+.images{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item{
+    padding: 10px;
+    background: #f1d5a7 ;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.item:hover img{
+    box-shadow: 1px 1px 60px #f8c60f;
+}
+
+.item:hover a{
+    color: #4c6088;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+}
+
+.verse{
+    font-size: 23px;
+    margin-top: 50px;
+    font-style: italic;
+    color: #1a2c42;
+    font-weight: 600;
+}
+
+p{
+    font-style: normal;
+    font-weight: 300;
+}
