@@ -1,0 +1,161 @@
+.fon1{
+    margin-top: 21%;
+}
+.persona{
+    margin-top: -26%;
+    margin-left: 6%;
+}
+ul {
+  list-style: none; /*убираем маркеры списка*/
+    margin-top: -25%;
+    text-align: right;
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: #7A3726;
+    font-weight: bold;
+}
+li {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: inline-block;
+    margin-right: 10%;
+    font-size: 30px;
+}
+.hey{
+    text-align: right, center;
+}
+.pp{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60px;
+    margin-top: -40.5%;
+    margin-left: 30%;
+    text-align: right;
+    margin-right: 8%;
+    font-weight: bold;
+}
+h1{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+margin-top: 10%;
+    text-align: center;
+    font-size: 60px;
+}
+.pp1{
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    font-size: 35px;
+    margin-top: -1%;
+}
+.images{
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item{
+    padding: 10px;
+    background: #9B4934 ;
+    margin-top: 15px;
+    margin-bottom: 3%;
+}
+h2{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+margin-top: -178%;
+    text-align: center;
+    font-size: 60px;
+}
+h3{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.item1{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+.scale {
+    transition: 1s; /* Время эффекта */
+    filter: alpha (Opacity=25);
+    opacity: 0.25;
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+.scale:hover {
+     transform: scale(1.7); /* Увеличиваем масштаб */
+        filter: alpha (Opacity=100);
+    opacity: 1;
+}
+.scale1 {
+    transition: 1s; /* Время эффекта */
+    filter: alpha (Opacity=25);
+    opacity: 0.25;
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+   }
+   .scale1:hover {
+    transform: scale(1.7); /* Увеличиваем масштаб */
+        filter: alpha (Opacity=100);
+    opacity: 1;
+   }
+.images1{
+    margin-top: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h4{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+.item2{
+    text-align: center;
+    padding: 10px;
+    margin-top: -15px;
+}
+.images2{
+    margin-top: -1.5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.scale2 {
+    transition: 1s; /* Время эффекта */
+   }
+.scale2:hover {
+  transform: scale(1.7); /* Увеличиваем масштаб */
+   }
+.contacts{
+    margin-top: 8%;
+    text-align: center;
+}
+h5{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: -24%;
+}
+.inst{
+    margin-right: 13%;
+}
+.vk{
+
+}
+.tt{
+    margin-left: 13%;
+}
+
