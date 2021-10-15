@@ -158,11 +158,11 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 .tt{
     margin-left: 13%;
 }
-  #content {
+#content {
     width: 500px; /* Ширина слоя */
     margin: 0 auto 50px; /* Выравнивание по центру */
    }
-   #footer {
+#footer {
        text-align: center;
        font-family: 'Yanone Kaffeesatz', sans-serif;
        font-size: 23px;
