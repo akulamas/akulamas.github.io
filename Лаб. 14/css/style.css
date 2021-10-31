@@ -1,0 +1,227 @@
+body{
+    line-height: 1.6;
+    height: 100%;
+    background-image: url(../img/ppp.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family: Fraunces;
+    font-style:normal;
+    font-weight:lighter;
+    overflow-x: hidden;
+    }
+.foto{
+margin-top: 5%;
+    margin-left: 5%;
+}
+.beauty-rotate3   {
+  width: 450px;
+  height: 450px;
+  border: 4px double pink; /* Рамка */
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.beauty-rotate3:hover {
+  border-radius: 50%;
+    transform: scale(1.2);
+}
+h1{
+    font-family: 'Kurale', serif;
+    font-size: 55px;
+    margin-left: 45%;
+    margin-top: -20%;
+}
+h2{
+    text-align: center;
+    font-family: 'Kurale', serif;
+    font-size: 55px;
+    margin-top: 18%;
+  padding: 30px 0 8px;
+  position: relative;
+}
+h2::before {
+    text-align: center;
+  content: "";
+  position: absolute;
+  left: 51%;
+  bottom: 25px;
+  width: 180px;
+  height: 16px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238,111,87,0.5);
+  z-index: -1;
+}
+* Общие стили */
+*, *:after, *:before {
+    border-box;
+    box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.hover-text-one {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    margin-left: 2.5%;
+
+}
+.hover-text-one figure {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    background: #FFC0CB;
+    text-align: center;
+    cursor: pointer;
+}
+.hover-text-one figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+    pointer-events: none;
+}
+.hover-text-one figure figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hover-text-one figure h3 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+.hover-text-one figure h3 span {
+    font-weight: 800;
+}
+.hover-text-one figure h3,
+.hover-text-one figure p {
+    margin-right: 13%;
+}
+.hover-text-one figure p {
+    letter-spacing: 1px;
+}
+
+/* Эффект при наведении */
+figure.effect-text-one img {
+    width: -webkit-calc(100% + 50px);
+    width: calc(100% + 100px);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    transform: scale(1.2);
+}
+figure.effect-text-one figcaption {
+    top: 67%;
+    bottom: 0;
+    height: 50%;
+    text-align: left;
+}
+figure.effect-text-one h3,
+figure.effect-text-one p {
+
+    font-family: 'Kurale', serif;
+    -webkit-transform: translate3d(0,40px,0);
+    transform: translate3d(0,40px,0);
+}
+figure.effect-text-one h3 {
+    color: #f66d52 !important;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+figure.effect-text-one p {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+  padding: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+}
+figure.effect-text-one:hover img,
+figure.effect-text-one:hover p {
+    opacity: 1;
+}
+figure.effect-text-one:hover img,
+figure.effect-text-one:hover h3,
+figure.effect-text-one:hover p {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+figure.effect-text-one:hover p {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+}
+.rod{
+    margin-top: 15%;
+    margin-left: 70%;
+}
+.rod1{
+    margin-top: 22%;
+    margin-left: 70%;
+}
+.sled{
+    margin-top: 15%;
+
+}
+h5{
+    font-family: 'Kurale', serif;
+    font-size: 35px;
+    margin-left: 45%;
+    margin-top: -27%;
+    width: 750px;
+}
+h6{
+    font-family: 'Kurale', serif;
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: -27%;
+    width: 750px;
+}
+.conta{
+    text-align: center;
+    margin-top: 10%;
+
+}
+.icon{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+footer{
+    display: flex;
+    height: 6%;
+    background-color: LightPink;
+    }
+    .bottom_text{
+    font-family: 'Kurale', serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 6%;
+    width: 100%;
+    margin: 13px 0;
+    font-size: 30px;
+    }
