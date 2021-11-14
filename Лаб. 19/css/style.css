@@ -1,0 +1,152 @@
+body{
+    overflow-x: hidden;
+    background-image: url(../img/image%2022.png); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+    background-repeat: no-repeat
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.foto{
+    margin: 3% 0 3% 63%;
+}
+h1{
+    font-family: 'Gabriela', serif;
+    font-size: 70px;
+    margin: -33% 0 0 5%;
+}
+p{
+  font-family: 'Gabriela', serif;
+}
+.ol{
+    background-color: lightgray;
+    padding: 2%;
+    text-align: center;
+    width: 500px;
+    font-size: 25px;
+    margin: 5% 0 0 9%;
+}
+.bio{
+    background-color: white;
+    margin-top: 10%;
+}
+.bio1{
+    background-color: white;
+    margin-top: 6%;
+}
+h2{
+   font-family: 'Gabriela', serif;
+font-size: 50px;
+    text-align: center;
+    padding: 2%;
+
+}
+.kar{
+    font-size: 23px;
+    padding: 2%;
+    text-align: justify;
+}
+.gal{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.f1:hover {
+    cursor: pointer;
+-webkit-transform: rotate(-10deg);
+-moz-transform: rotate(-10deg);
+-o-transform: rotate(-10deg);
+-ms-transform: rotate(-10deg);
+transform: rotate(-10deg);
+}
+.f1{
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+      margin: 0 3% 0 3%;
+}
+.slider {
+  position: relative;
+  width: 680px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider input[name="switch"] {
+  display: none;
+}
+
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.slides img {
+  width: 680px;
+  height: 453px;
+  float: left;
+}
+
+#btn1:checked~slider-inner slides {
+  transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .slides {
+  transform: translate(-680px);
+}
+
+#btn3:checked~.slider-inner .slides {
+  transform: translate(-1360px);
+}
+.f2{
+   margin: 0 2% 0 2%;
+}
+#footer {
+       text-align: center;
+  font-family: 'Gabriela', serif;
+       font-size: 25px;
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: lightgray; /* Цвет фона */
+    color: black; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
