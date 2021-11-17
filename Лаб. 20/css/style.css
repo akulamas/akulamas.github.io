@@ -1,0 +1,226 @@
+body{
+    overflow-x: hidden;
+    background-image: url(../img/chernyj-fon-krasnyj-cvet-kraska-vzryv-vsplesk-krasnye-chernyj%201.png); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+    background-repeat: no-repeat
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.name{
+    background-color: white;
+}
+.ph{
+    width: 100%;
+    margin-top: 3%;
+}
+.country_title{
+    font-family: 'Roboto Slab', serif;
+    color: #333;
+
+    text-shadow: 1px 1px white,
+                 2px 2px #777;
+    font-size:4.5vw;
+      padding-top: 3%;
+  }
+
+  .country_title:after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 55%;
+    margin: 2px;
+    left: 50%;
+    position: absolute;
+    transition: width .5s ease-in-out;
+    transform: translateX(-50%);
+    background-color: #333333;
+}
+
+.country_title:hover:after  {
+    width: 20%;
+    background-color: #505f61;
+}
+
+.foto{
+    margin: 3% 0 3% 63%;
+}
+h1{
+    font-family: 'Gabriela', serif;
+    font-size: 70px;
+    margin: 3% 0 0 5%;
+}
+p{
+  font-family: 'Gabriela', serif;
+}
+.ol{
+    padding: 3%;
+    text-align: center;
+    font-size: 25px;
+}
+.bio{
+    background-color: white;
+    margin-top: 10%;
+    text-align: center;
+}
+.bio1{
+    background-color: white;
+    margin-top: 6%;
+}
+h2{
+   font-family: 'Gabriela', serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 2%;
+}
+.facts_Ulyana {
+    list-style: none;
+    text-align:center;
+}
+
+  .facts_Ulyana li {
+    position: relative;
+    padding: 20px 20px 20px 28px;
+    color: black;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+    font-family: 'Lora';
+    font-weight: 400;
+    text-align:center;
+  }
+
+  .facts_Ulyana li:before {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    content: "";
+    transition: .2s ease-in-out;
+    top: 10px;
+      text-align:center;
+  }
+
+
+  .facts_Ulyana li:hover {
+    text-decoration: underline;
+      text-align:center;
+}
+.scale {
+    padding: 1%;
+    transition: 1s; /* Время эффекта */
+    -moz-transition: all 1s ease-in-out; /* эффект перехода для Firefox до версии 16.0 */
+    -webkit-transition: all 1s ease-in-out; /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+    -o-transition: all 1s ease-in-out; /* эффект перехода для Opera до версии 12.10 */
+    transition: all 1s ease-in-out; /* эффект перехода для других браузеров */
+}
+.scale:hover {
+     transform: scale(1.1); /* Увеличиваем масштаб */
+}
+.kar{
+    font-size: 23px;
+    text-align: justify;
+}
+.gal{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.f1:hover {
+    cursor: pointer;
+-webkit-transform: rotate(-10deg);
+-moz-transform: rotate(-10deg);
+-o-transform: rotate(-10deg);
+-ms-transform: rotate(-10deg);
+transform: rotate(-10deg);
+}
+.f1{
+    -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+      margin: 0 3% 0 3%;
+}
+.slider {
+  position: relative;
+  width: 680px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider input[name="switch"] {
+  display: none;
+}
+
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.slides img {
+  width: 680px;
+  height: 513px;
+  float: left;
+}
+
+#btn1:checked~slider-inner slides {
+  transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .slides {
+  transform: translate(-680px);
+}
+
+#btn3:checked~.slider-inner .slides {
+  transform: translate(-1360px);
+}
+.f2{
+   margin: 0 2% 0 2%;
+}
+#footer {
+       text-align: center;
+  font-family: 'Gabriela', serif;
+       font-size: 25px;
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: black; /* Цвет фона */
+    color: white; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
